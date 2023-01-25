@@ -48,8 +48,8 @@ a {
 .hero {
   display: flex;
   flex-direction: row;
-  flex: 1;
-  padding: 0px 80px;
+  flex: 0 0 1;
+  padding: 0px 80px 90px 80px;
 }
 
 .hero-text {
@@ -95,4 +95,17 @@ a {
 
 .hero-btn.signup {
   border-style: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-header {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
 }
