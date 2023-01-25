@@ -23,7 +23,7 @@ a {
 
 .header {
   display: flex;
-  padding: 0px 80px 40px 80px;
+  padding: 0px 160px 40px 160px;
 }
 
 .header-logo,
@@ -49,13 +49,14 @@ a {
   display: flex;
   flex-direction: row;
   flex: 0 0 1;
-  padding: 0px 80px 90px 80px;
+  padding: 0px 160px 90px 160px;
 }
 
 .hero-text {
   display: flex;
   flex-direction: column;
   padding-right: 20px;
+  width: 50%;
 }
 
 .hero-main,
@@ -77,9 +78,15 @@ a {
 }
 
 .hero-img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.hero-img-container {
   width: 50%;
-  height: fit-content;
   display: flex;
+  justify-content: flex-end;
 }
 
 .signup {
