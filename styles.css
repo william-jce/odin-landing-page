@@ -1,6 +1,7 @@
 body {
   margin: 0;
   min-height: 100vh;
+  min-width: none;
   font-family: Roboto;
   display: flex;
   flex-direction: column;
@@ -115,4 +116,29 @@ a {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1F2937;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-img {
+  border-radius: 10px;
+  max-width: 200px;
+  padding: 0px;
+}
+
+.content-captions {
+  display: table;
+  margin: 0px 20px;
+}
+
+.figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding: 5px;
+  text-align: center;
 }
