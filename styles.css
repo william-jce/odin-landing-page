@@ -7,6 +7,20 @@ body {
   flex-direction: column;
 }
 
+button {
+  border-style: solid;
+  border-color: #E5E7EB;
+  font-family: Roboto;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -37,6 +51,7 @@ a {
 .header-logo {
   justify-content: flex-start;
   font-size: 24px;
+  font-weight: bold;
   color: #F9FAF8;
 }
 
@@ -69,7 +84,7 @@ a {
 
 .hero-main {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: 900;
   color: #F9FAF8;
 }
 
@@ -96,8 +111,7 @@ a {
   background-color: #3882F6;
   color: #E5E7EB;
   width: fit-content;
-  flex: 0 0 1;
-  padding: 5px 20px;
+  padding: 5px 30px;
   border-radius: 6px;
 }
 
@@ -114,8 +128,10 @@ a {
   display: flex;
   justify-content: center;
   font-size: 36px;
-  font-weight: extra-bold;
+  font-weight: 900; 
   color: #1F2937;
+  padding: 30px;
+  margin: 0;
 }
 
 .content-container {
@@ -123,17 +139,19 @@ a {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .content-img {
   border-radius: 10px;
   max-width: 200px;
   padding: 0px;
+  display: block;
 }
 
 .content-captions {
   display: table;
-  margin: 0px 20px;
+  margin: 0px 20px 20px 20px;
 }
 
 .figcaption {
@@ -141,4 +159,53 @@ a {
   caption-side: bottom;
   padding: 5px;
   text-align: center;
+}
+
+.quotes {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 10% 15%;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  margin: 0;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.writer {
+  margin: 0;
+  text-align: end;
+  font-weight: bold;
+}
+
+.action-container {
+  padding: 5% 15%;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 30px 50px;
+  margin: 0;
+  color: #E5E7EB;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+.call-header {
+  font-size: 20px;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
 }
