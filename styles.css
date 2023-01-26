@@ -38,7 +38,7 @@ a {
 
 .header {
   display: flex;
-  padding: 0px 160px 40px 160px;
+  padding: 0px 400px 40px 400px;
 }
 
 .header-logo,
@@ -64,15 +64,16 @@ a {
 .hero {
   display: flex;
   flex-direction: row;
-  flex: 0 0 1;
-  padding: 0px 160px 90px 160px;
+  padding: 0px 400px 90px 400px;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-text {
   display: flex;
   flex-direction: column;
   padding-right: 20px;
-  width: 50%;
+  width: 600px;
 }
 
 .hero-main,
@@ -94,7 +95,7 @@ a {
 }
 
 .hero-img {
-  max-width: 100%;
+  width: 100%;
   max-height: 300px;
   object-fit: contain;
 }
@@ -163,10 +164,13 @@ a {
 
 .quotes {
   display: flex;
-  flex: 1;
-  flex-direction: column;
   background-color: #E5E7EB;
-  padding: 10% 15%;
+  padding: 60px;
+  justify-content: center;
+}
+
+.quote-set {
+  width: 850px;
 }
 
 .quote {
@@ -174,7 +178,7 @@ a {
   color: #1F2937;
   margin: 0;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .writer {
@@ -184,7 +188,9 @@ a {
 }
 
 .action-container {
-  padding: 5% 15%;
+  padding: 60px 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .action {
@@ -198,6 +204,7 @@ a {
   color: #E5E7EB;
   font-size: 16px;
   justify-content: space-between;
+  width: max-content;
 }
 
 .call-header {
@@ -207,7 +214,7 @@ a {
 .call {
   display: flex;
   flex-direction: column;
-  padding-right: 10px;
+  padding-right: 30px;
 }
 
 .footer {
