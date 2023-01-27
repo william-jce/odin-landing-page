@@ -31,24 +31,29 @@ a {
   color: #E5E7EB;
 }
 
-.header,
-.hero {
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 60px 90px 60px;
+  justify-content: center;
+  align-items: center;
   background-color: #1F2937;
 }
 
 .header {
   display: flex;
-  padding: 0px 400px 40px 400px;
+  flex-direction: row;
+  width: 1150px;
 }
 
-.header-logo,
+.logo,
 .right-links {
   display: flex;
   flex-direction: row;
   flex: 1;
 }
 
-.header-logo {
+.logo {
   justify-content: flex-start;
   font-size: 24px;
   font-weight: bold;
@@ -61,19 +66,16 @@ a {
   font-size: 18px;
 }
 
-.hero {
+.hero-wrapper {
   display: flex;
   flex-direction: row;
-  padding: 0px 400px 90px 400px;
-  justify-content: center;
-  align-items: center;
+  width: 1150px;
 }
-
 .hero-text {
   display: flex;
   flex-direction: column;
   padding-right: 20px;
-  width: 600px;
+  flex: 1;
 }
 
 .hero-main,
@@ -97,13 +99,12 @@ a {
 .hero-img {
   width: 100%;
   max-height: 300px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .hero-img-container {
-  width: 50%;
   display: flex;
-  justify-content: flex-end;
+  flex: 1;
 }
 
 .signup {
