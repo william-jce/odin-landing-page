@@ -43,7 +43,8 @@ a {
 .header {
   display: flex;
   flex-direction: row;
-  width: 1150px;
+  max-width: 1150px;
+  width: 100%;
 }
 
 .logo,
@@ -69,7 +70,7 @@ a {
 .hero-wrapper {
   display: flex;
   flex-direction: row;
-  width: 1150px;
+  max-width: 1150px;
 }
 .hero-text {
   display: flex;
